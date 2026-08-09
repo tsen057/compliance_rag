@@ -84,3 +84,5 @@ class TestRootRoute:
         assert resp.status_code == 200
         assert "text/html" in resp.headers["content-type"]
         assert "Compliance" in resp.text
+
+
