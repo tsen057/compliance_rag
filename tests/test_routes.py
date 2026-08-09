@@ -79,7 +79,8 @@ class TestQueryRoute:
 
 
 class TestRootRoute:
-    def test_root_returns_service_info(self):
+    def test_root_returns_chat_ui(self):
         resp = client.get("/")
         assert resp.status_code == 200
-        assert "Compliance" in resp.json()["service"]
+        assert "text/html" in resp.headers["content-type"]
+        assert "Compliance" in resp.text
