@@ -224,7 +224,7 @@ Metrics reported:
 
 ## Limitations
 
-- The local LLM (`flan-t5-large`) handles factual questions well but can struggle with complex multi-document synthesis. For production use, swap for an API-based model such as Azure OpenAI GPT-4 by updating `agent.py`.
+- The local LLM (`flan-t5-large`) handles factual questions well but can struggle with complex multi-document synthesis. For better results, swap for an API-based model such as Azure OpenAI GPT-4 by updating `agent.py`.
 - Ingestion re-processes all documents on every upload. For large document sets, incremental indexing would be a natural next improvement.
 - No authentication on the API endpoints. For any deployment beyond local use, add API key middleware.
 
