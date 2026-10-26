@@ -1,6 +1,6 @@
 ﻿# Compliance Document Assistant
 
-A production-grade RAG (Retrieval-Augmented Generation) application that lets compliance and risk analysts ask natural language questions over regulatory documents and receive cited, accurate answers grounded in the actual source text.
+A RAG (Retrieval-Augmented Generation) application that lets compliance and risk analysts ask natural language questions over regulatory documents and receive cited, accurate answers grounded in the actual source text.
 
 Built as a portfolio project demonstrating end-to-end ML/AI engineering — from document ingestion and vector search to a LangGraph agent and a custom chat interface.
 
